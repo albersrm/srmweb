@@ -1,15 +1,16 @@
 [
   {
+  
   "id": "post1",
   "titulo": "El trend más viral del momento: la coreografía de “Jump” de BLACKPINK",
   "fecha": "2025-07-20",
   "categoria": "K-Pop",
   "etiquetas": ["BLACKPINK", "Jump", "Coreografía"],
-  "imagen": "jump-blackpink.jpg",
+  "imagen": "blackpink-ygfamily.jpg",
+  "creditos": "Foto: © YG Entertainment / www.ygfamily.com",
   "resumen": "La coreografía del nuevo single de BLACKPINK se ha vuelto viral en TikTok y redes sociales, causando furor entre fans y creadores de contenido.",
   "contenido": "El grupo surcoreano BLACKPINK continúa conquistando el mundo con su estilo único y energía arrolladora. Su último single, “Jump”, no solo ha capturado la atención por su sonido fresco y pegadizo, sino también por la coreografía que lo acompaña, que rápidamente se ha convertido en la tendencia viral del momento.\\n\\nMiles de fans y creadores de contenido en TikTok y otras redes sociales han replicado los movimientos, haciendo que la coreografía se extienda como un fuego en la comunidad global. Los pasos combinan técnicas del parkour, movimientos de baile callejero y elementos visuales que resaltan la fuerza y la unidad del grupo.\\n\\nLa popularidad del baile ha trascendido las fronteras del K-Pop, alcanzando incluso a artistas y bailarines de otros géneros que han mostrado su versión del “Jump”. Esto ha generado un efecto multiplicador, aumentando aún más la visibilidad del single y fortaleciendo la presencia de BLACKPINK en el mercado internacional.\\n\\nAdemás, la estética de la coreografía y el vestuario fueron cuidadosamente diseñados para reflejar una mezcla entre modernidad y raíces urbanas, elementos que conectan tanto con la generación millennial como con la Gen Z. Los colores vibrantes y los movimientos precisos crean un espectáculo visual que acompaña a la perfección la energía de la canción.\\n\\nEste fenómeno no solo demuestra el poder de las redes sociales como plataforma de difusión cultural, sino también el impacto global que tiene la música pop coreana en la industria del entretenimiento. “Jump” y su coreografía se han convertido en un símbolo de la fusión entre música, danza y cultura digital, consolidando a BLACKPINK como uno de los referentes más importantes del momento."
-}
-,
+  },
   {
     "id": "post2",
     "titulo": "La canción que está en todas las listas: “Golden” de Huntrix",
