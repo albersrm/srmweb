@@ -1,0 +1,1 @@
+// Lógica JS de búsqueda y navegación

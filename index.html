@@ -1,0 +1,59 @@
+SRM - Sonido Real Magazine
+Contenido de prueba
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SRM - Sonido Real Magazine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">SRM — Sonido Real Magazine</a></h1>
+    <input type="text" id="search" placeholder="Buscar..." />
+  </header>
+ 
+  <main id="posts-container"></main>
+ 
+  <footer>
+    <p>&copy; 2025 SRM</p>
+  </footer>
+ 
+  <script>
+    const container = document.getElementById("posts-container");
+    const searchInput = document.getElementById("search");
+ 
+    function renderPosts(posts) {
+      container.innerHTML = "";
+      posts.forEach(post => {
+        const postElement = document.createElement("article");
+        postElement.innerHTML = `
+          <h2><a href="post.html?id=${post.id}">${post.titulo}</a></h2>
+          <p class="meta">${post.fecha} | ${post.categoria}</p>
+          <p>${post.resumen}</p>
+        `;
+        container.appendChild(postElement);
+      });
+    }
+ 
+    fetch("posts.json")
+      .then(response => response.json())
+      .then(posts => {
+        let allPosts = posts;
+        renderPosts(allPosts);
+ 
+        searchInput.addEventListener("input", (e) => {
+          const query = e.target.value.toLowerCase();
+          const filtered = allPosts.filter(post =>
+            post.titulo.toLowerCase().includes(query) ||
+            post.categoria.toLowerCase().includes(query) ||
+            post.resumen.toLowerCase().includes(query)
+          );
+          renderPosts(filtered);
+        });
+      });
+  </script>
+</body>
+</html>
+ 

@@ -1,0 +1,265 @@
+[
+  {
+    "id": "post1",
+    "titulo": "El trend más viral del momento: la coreografía de “Jump” de BLACKPINK",
+    "fecha": "2025-07-20",
+    "categoria": "K-Pop",
+    "etiquetas": [
+      "BLACKPINK",
+      "Jump",
+      "Coreografía"
+    ],
+    "imagen": "jump-blackpink.jpg",
+    "resumen": "La coreografía del nuevo single de BLACKPINK se ha vuelto viral en TikTok.",
+    "contenido": "El nuevo single de BLACKPINK, 'Jump', ha causado furor en redes sociales, especialmente TikTok, donde miles de usuarios replican la icónica coreografía del estribillo..."
+  },
+  {
+    "id": "post2",
+    "titulo": "La canción que está en todas las listas: “Golden” de Huntrix",
+    "fecha": "2025-07-19",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Huntrix",
+      "Golden",
+      "Chart"
+    ],
+    "imagen": "golden-huntrix.jpg",
+    "resumen": "“Golden” arrasa en listas globales. ¿Quiénes son las voces misteriosas tras el hit?",
+    "contenido": "Huntrix ha lanzado 'Golden', una canción que ha escalado rápidamente en los rankings de Spotify y Apple Music..."
+  },
+  {
+    "id": "post3",
+    "titulo": "La nueva visión de Lorde en Virgin: intimidad y sinceridad cruda",
+    "fecha": "2025-07-18",
+    "categoria": "Indie Pop",
+    "etiquetas": [
+      "Lorde",
+      "Virgin",
+      "Álbum"
+    ],
+    "imagen": "lorde-virgin.jpg",
+    "resumen": "Lorde sorprende con un álbum emocionalmente desnudo, alejado de sus trabajos anteriores.",
+    "contenido": "En 'Virgin', Lorde apuesta por una producción mínima y letras introspectivas que exploran vulnerabilidad, deseo y memoria..."
+  },
+  {
+    "id": "post4",
+    "titulo": "Título del post 4",
+    "fecha": "2025-07-17",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta4",
+      "Música"
+    ],
+    "imagen": "imagen4.jpg",
+    "resumen": "Resumen del post 4.",
+    "contenido": "Contenido completo del post 4..."
+  },
+  {
+    "id": "post5",
+    "titulo": "Título del post 5",
+    "fecha": "2025-07-16",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta5",
+      "Música"
+    ],
+    "imagen": "imagen5.jpg",
+    "resumen": "Resumen del post 5.",
+    "contenido": "Contenido completo del post 5..."
+  },
+  {
+    "id": "post6",
+    "titulo": "Título del post 6",
+    "fecha": "2025-07-15",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta6",
+      "Música"
+    ],
+    "imagen": "imagen6.jpg",
+    "resumen": "Resumen del post 6.",
+    "contenido": "Contenido completo del post 6..."
+  },
+  {
+    "id": "post7",
+    "titulo": "Título del post 7",
+    "fecha": "2025-07-14",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta7",
+      "Música"
+    ],
+    "imagen": "imagen7.jpg",
+    "resumen": "Resumen del post 7.",
+    "contenido": "Contenido completo del post 7..."
+  },
+  {
+    "id": "post8",
+    "titulo": "Título del post 8",
+    "fecha": "2025-07-13",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta8",
+      "Música"
+    ],
+    "imagen": "imagen8.jpg",
+    "resumen": "Resumen del post 8.",
+    "contenido": "Contenido completo del post 8..."
+  },
+  {
+    "id": "post9",
+    "titulo": "Título del post 9",
+    "fecha": "2025-07-12",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta9",
+      "Música"
+    ],
+    "imagen": "imagen9.jpg",
+    "resumen": "Resumen del post 9.",
+    "contenido": "Contenido completo del post 9..."
+  },
+  {
+    "id": "post10",
+    "titulo": "Título del post 10",
+    "fecha": "2025-07-11",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta10",
+      "Música"
+    ],
+    "imagen": "imagen10.jpg",
+    "resumen": "Resumen del post 10.",
+    "contenido": "Contenido completo del post 10..."
+  },
+  {
+    "id": "post11",
+    "titulo": "Título del post 11",
+    "fecha": "2025-07-10",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta11",
+      "Música"
+    ],
+    "imagen": "imagen11.jpg",
+    "resumen": "Resumen del post 11.",
+    "contenido": "Contenido completo del post 11..."
+  },
+  {
+    "id": "post12",
+    "titulo": "Título del post 12",
+    "fecha": "2025-07-09",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta12",
+      "Música"
+    ],
+    "imagen": "imagen12.jpg",
+    "resumen": "Resumen del post 12.",
+    "contenido": "Contenido completo del post 12..."
+  },
+  {
+    "id": "post13",
+    "titulo": "Título del post 13",
+    "fecha": "2025-07-08",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta13",
+      "Música"
+    ],
+    "imagen": "imagen13.jpg",
+    "resumen": "Resumen del post 13.",
+    "contenido": "Contenido completo del post 13..."
+  },
+  {
+    "id": "post14",
+    "titulo": "Título del post 14",
+    "fecha": "2025-07-07",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta14",
+      "Música"
+    ],
+    "imagen": "imagen14.jpg",
+    "resumen": "Resumen del post 14.",
+    "contenido": "Contenido completo del post 14..."
+  },
+  {
+    "id": "post15",
+    "titulo": "Título del post 15",
+    "fecha": "2025-07-06",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta15",
+      "Música"
+    ],
+    "imagen": "imagen15.jpg",
+    "resumen": "Resumen del post 15.",
+    "contenido": "Contenido completo del post 15..."
+  },
+  {
+    "id": "post16",
+    "titulo": "Título del post 16",
+    "fecha": "2025-07-05",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta16",
+      "Música"
+    ],
+    "imagen": "imagen16.jpg",
+    "resumen": "Resumen del post 16.",
+    "contenido": "Contenido completo del post 16..."
+  },
+  {
+    "id": "post17",
+    "titulo": "Título del post 17",
+    "fecha": "2025-07-04",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta17",
+      "Música"
+    ],
+    "imagen": "imagen17.jpg",
+    "resumen": "Resumen del post 17.",
+    "contenido": "Contenido completo del post 17..."
+  },
+  {
+    "id": "post18",
+    "titulo": "Título del post 18",
+    "fecha": "2025-07-03",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta18",
+      "Música"
+    ],
+    "imagen": "imagen18.jpg",
+    "resumen": "Resumen del post 18.",
+    "contenido": "Contenido completo del post 18..."
+  },
+  {
+    "id": "post19",
+    "titulo": "Título del post 19",
+    "fecha": "2025-07-02",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta19",
+      "Música"
+    ],
+    "imagen": "imagen19.jpg",
+    "resumen": "Resumen del post 19.",
+    "contenido": "Contenido completo del post 19..."
+  },
+  {
+    "id": "post20",
+    "titulo": "Título del post 20",
+    "fecha": "2025-07-01",
+    "categoria": "Pop",
+    "etiquetas": [
+      "Etiqueta20",
+      "Música"
+    ],
+    "imagen": "imagen20.jpg",
+    "resumen": "Resumen del post 20.",
+    "contenido": "Contenido completo del post 20..."
+  }
+]
