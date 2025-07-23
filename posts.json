@@ -1,15 +1,11 @@
 [
-  {
   
-  "id": "post1",
-  "titulo": "El trend más viral del momento: la coreografía de “Jump” de BLACKPINK",
-  "fecha": "2025-07-20",
-  "categoria": "K-Pop",
-  "etiquetas": ["BLACKPINK", "Jump", "Coreografía"],
-  "imagen": "blackpink-ygfamily.jpg",
-  "creditos": "Foto: © YG Entertainment / www.ygfamily.com",
-  "resumen": "La coreografía del nuevo single de BLACKPINK se ha vuelto viral en TikTok y redes sociales, causando furor entre fans y creadores de contenido.",
-  "contenido": "El grupo surcoreano BLACKPINK continúa conquistando el mundo con su estilo único y energía arrolladora. Su último single, “Jump”, no solo ha capturado la atención por su sonido fresco y pegadizo, sino también por la coreografía que lo acompaña, que rápidamente se ha convertido en la tendencia viral del momento.\\n\\nMiles de fans y creadores de contenido en TikTok y otras redes sociales han replicado los movimientos, haciendo que la coreografía se extienda como un fuego en la comunidad global. Los pasos combinan técnicas del parkour, movimientos de baile callejero y elementos visuales que resaltan la fuerza y la unidad del grupo.\\n\\nLa popularidad del baile ha trascendido las fronteras del K-Pop, alcanzando incluso a artistas y bailarines de otros géneros que han mostrado su versión del “Jump”. Esto ha generado un efecto multiplicador, aumentando aún más la visibilidad del single y fortaleciendo la presencia de BLACKPINK en el mercado internacional.\\n\\nAdemás, la estética de la coreografía y el vestuario fueron cuidadosamente diseñados para reflejar una mezcla entre modernidad y raíces urbanas, elementos que conectan tanto con la generación millennial como con la Gen Z. Los colores vibrantes y los movimientos precisos crean un espectáculo visual que acompaña a la perfección la energía de la canción.\\n\\nEste fenómeno no solo demuestra el poder de las redes sociales como plataforma de difusión cultural, sino también el impacto global que tiene la música pop coreana en la industria del entretenimiento. “Jump” y su coreografía se han convertido en un símbolo de la fusión entre música, danza y cultura digital, consolidando a BLACKPINK como uno de los referentes más importantes del momento."
+  {
+    "id": "post1",
+    "title": "El trend más viral del momento: la coreografía del nuevo single de Blackpink: Jump",
+    "content": "<p>Desde su lanzamiento, 'Jump', el nuevo single de BLACKPINK, se ha convertido en un fenómeno global gracias a su pegadiza coreografía. Miles de fans de todas partes del mundo han tomado TikTok y otras redes sociales para imitar los movimientos precisos y enérgicos del grupo.</p><p>La coreografía, creada por el reconocido coreógrafo Lee Jung, mezcla elementos urbanos con movimientos innovadores que han sido diseñados para destacar la fuerza y sincronía del grupo.</p><p>El videoclip, dirigido por Seo Hyun-seung, ha superado las 100 millones de reproducciones en tiempo récord, consolidando la influencia visual y musical de BLACKPINK en la industria.</p><p>Esta tendencia ha sido adoptada no solo por seguidores, sino también por artistas que han participado en challenges virales, haciendo de 'Jump' una auténtica revolución cultural dentro y fuera del mundo del K-pop.</p><p>Además, la estética futurista y los outfits del vídeo están marcando una nueva línea de moda urbana que está siendo replicada en todo el mundo.</p><p>Con eventos y flashmobs organizados en ciudades como Seúl, Nueva York, y Barcelona, la canción no solo es un éxito musical, sino que también está promoviendo la unión y participación global a través del baile.</p><p>En definitiva, 'Jump' ha logrado lo que pocos temas: ser un himno viral que mezcla música, baile y moda, llevando a BLACKPINK a la cima del pop internacional una vez más.</p>",
+    "image": "img/blackpink-ygfamily.jpg",
+    "imageCredit": "Foto oficial de BLACKPINK vía YG Entertainment — https://ygfamily.com"
   },
   {
     "id": "post2",

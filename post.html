@@ -2,71 +2,78 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SRM | Artículo</title>
   <style>
     body {
-      font-family: sans-serif;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
       max-width: 800px;
-      margin: auto;
-    }
-    img {
-      max-width: 100%;
-      margin: 1rem 0;
-      border-radius: 10px;
-    }
-    .credit {
-      font-size: 0.8rem;
-      color: #777;
-      margin-bottom: 2rem;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #222;
     }
     h1 {
-      margin-top: 0;
       font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    #post-image {
+      max-width: 100%;
+      margin: 20px 0;
+      display: none;
+      border-radius: 10px;
+    }
+    #image-credit {
+      font-size: 0.8rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+      display: none;
+    }
+    #post-content p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
   <h1 id="post-title">Cargando...</h1>
-  <img id="post-image" src="" alt="" style="display:none;" />
-  <p class="credit" id="post-credit" style="display:none;"></p>
+  <img id="post-image" alt="Imagen del post" />
+  <p id="image-credit"></p>
   <div id="post-content"></div>
 
   <script>
-    // Obtener el ID del post desde la URL
+    // Obtener el parámetro id de la URL
     const params = new URLSearchParams(window.location.search);
     const postId = params.get('id');
 
-    // Cargar el archivo JSON
     fetch('posts.json')
       .then(response => response.json())
       .then(posts => {
         const post = posts.find(p => p.id === postId);
+
         if (!post) {
-          document.getElementById('post-title').innerText = 'Artículo no encontrado';
+          document.body.innerHTML = "<h2>Artículo no encontrado</h2>";
           return;
         }
 
-        document.getElementById('post-title').innerText = post.title;
+        document.getElementById('post-title').textContent = post.title || 'Sin título';
+        document.getElementById('post-content').innerHTML = post.content || '<p>Sin contenido</p>';
 
-        if (post.image) {
+        if(post.image) {
           const img = document.getElementById('post-image');
           img.src = post.image;
-          img.alt = post.title;
+          img.alt = post.title || 'Imagen del post';
           img.style.display = 'block';
         }
 
-        if (post.credit) {
-          const credit = document.getElementById('post-credit');
-          credit.innerText = post.credit;
+        if(post.imageCredit) {
+          const credit = document.getElementById('image-credit');
+          credit.textContent = post.imageCredit;
           credit.style.display = 'block';
         }
-
-        document.getElementById('post-content').innerHTML = post.content;
       })
       .catch(error => {
-        document.getElementById('post-title').innerText = 'Error al cargar el artículo';
+        document.body.innerHTML = "<h2>Error cargando el artículo</h2>";
         console.error(error);
       });
   </script>
