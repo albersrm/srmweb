@@ -1,59 +1,180 @@
-SRM - Sonido Real Magazine
-Contenido de prueba
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SRM - Sonido Real Magazine</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SRM - Revista Online de Música</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 20px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 3rem;
+      color: #222;
+    }
+
+    #posts-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .post-card {
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .post-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 24px rgb(0 0 0 / 0.15);
+    }
+
+    .post-image {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 14px 14px 0 0;
+      background: #ddd;
+    }
+
+    .post-content {
+      padding: 16px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .post-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin: 0 0 10px 0;
+      line-height: 1.3;
+    }
+
+    .post-excerpt {
+      flex-grow: 1;
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 14px;
+    }
+
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .post-tag {
+      background: #e0c3fc;
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      color: #5a2a83;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 12px;
+      user-select: none;
+      white-space: nowrap;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1><a href="index.html">SRM — Sonido Real Magazine</a></h1>
-    <input type="text" id="search" placeholder="Buscar..." />
+    <h1>SRM - Sound Revolution Magazine</h1>
   </header>
- 
-  <main id="posts-container"></main>
- 
-  <footer>
-    <p>&copy; 2025 SRM</p>
-  </footer>
- 
+
+  <main>
+    <div id="posts-container">
+      <!-- Aquí irán las tarjetas generadas -->
+    </div>
+  </main>
+
   <script>
-    const container = document.getElementById("posts-container");
-    const searchInput = document.getElementById("search");
- 
-    function renderPosts(posts) {
-      container.innerHTML = "";
-      posts.forEach(post => {
-        const postElement = document.createElement("article");
-        postElement.innerHTML = `
-          <h2><a href="post.html?id=${post.id}">${post.titulo}</a></h2>
-          <p class="meta">${post.fecha} | ${post.categoria}</p>
-          <p>${post.resumen}</p>
-        `;
-        container.appendChild(postElement);
-      });
-    }
- 
-    fetch("posts.json")
-      .then(response => response.json())
+    fetch('posts.json')
+      .then(res => res.json())
       .then(posts => {
-        let allPosts = posts;
-        renderPosts(allPosts);
- 
-        searchInput.addEventListener("input", (e) => {
-          const query = e.target.value.toLowerCase();
-          const filtered = allPosts.filter(post =>
-            post.titulo.toLowerCase().includes(query) ||
-            post.categoria.toLowerCase().includes(query) ||
-            post.resumen.toLowerCase().includes(query)
-          );
-          renderPosts(filtered);
+        const container = document.getElementById('posts-container');
+
+        posts.forEach(post => {
+          // Crear tarjeta de post
+          const card = document.createElement('a');
+          card.className = 'post-card';
+          card.href = `post.html?id=${post.id}`;
+          card.title = post.title;
+
+          // Imagen
+          const img = document.createElement('img');
+          img.className = 'post-image';
+          img.src = post.image || 'img/default.jpg';
+          img.alt = post.title || 'Post image';
+
+          // Contenido
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'post-content';
+
+          // Título
+          const title = document.createElement('h2');
+          title.className = 'post-title';
+          title.textContent = post.title;
+
+          // Extracto (primeros 120 caracteres de content, sin HTML)
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = post.content || '';
+          let text = tempDiv.textContent || tempDiv.innerText || '';
+          text = text.length > 120 ? text.slice(0, 120) + '…' : text;
+
+          const excerpt = document.createElement('p');
+          excerpt.className = 'post-excerpt';
+          excerpt.textContent = text;
+
+          // Tags
+          const tagsDiv = document.createElement('div');
+          tagsDiv.className = 'post-tags';
+          if(post.tags && post.tags.length > 0){
+            post.tags.forEach(tag => {
+              const tagSpan = document.createElement('span');
+              tagSpan.className = 'post-tag';
+              tagSpan.textContent = tag;
+              tagsDiv.appendChild(tagSpan);
+            });
+          }
+
+          contentDiv.appendChild(title);
+          contentDiv.appendChild(excerpt);
+          contentDiv.appendChild(tagsDiv);
+
+          card.appendChild(img);
+          card.appendChild(contentDiv);
+
+          container.appendChild(card);
         });
+      })
+      .catch(() => {
+        document.getElementById('posts-container').textContent = 'Error cargando posts.';
       });
   </script>
+
 </body>
 </html>
- 
