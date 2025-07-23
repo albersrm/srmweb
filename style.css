@@ -213,10 +213,12 @@ header h1 {
 
 #post-container img {
   width: 100%;
-  max-height: 340px;
-  object-fit: cover;
+  max-height: none;         /* Quita el límite de altura */
+  object-fit: contain;      /* Muestra la imagen completa sin recortar */
   border-radius: 12px;
   margin-bottom: 18px;
+  display: block;
+  background: #f3f3f3;
 }
 
 #post-container .post-tags {
