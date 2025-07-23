@@ -151,21 +151,6 @@ main {
 #post-container .post-tags {
   margin-top: 18px;
   margin-bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-#post-container .post-tag {
-  background: #e0c3fc;
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  color: #5a2a83;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 12px;
-  user-select: none;
-  white-space: nowrap;
 }
 
 #post-container .image-credit {
@@ -173,9 +158,4 @@ main {
   color: #999;
   margin-bottom: 18px;
   display: block;
-}
-
-/* Espaciado entre párrafos del contenido del post */
-#post-container .post-content p {
-  margin-bottom: 1em;
 }
