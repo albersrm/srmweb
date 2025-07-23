@@ -159,3 +159,57 @@ main {
   margin-bottom: 18px;
   display: block;
 }
+
+/* Menú lateral y layout principal */
+.main-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#sidebar {
+  width: 200px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.06);
+  padding: 24px 16px;
+}
+
+#sidebar h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #5a2a83;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#category-list li {
+  padding: 8px 0;
+  font-size: 1rem;
+  color: #5a2a83;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#category-list li.active,
+#category-list li:hover {
+  background: #e0c3fc;
+  color: #222;
+  font-weight: 600;
+}
+
+.content-area {
+  flex: 1;
+  min-width: 0;
+}

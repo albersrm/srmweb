@@ -11,7 +11,16 @@
     <h1>SRM - Sound Revolution Magazine</h1>
   </header>
   <main>
-    <div id="posts-container"></div>
+    <div class="main-layout">
+      <aside id="sidebar">
+        <h2>Categorías</h2>
+        <ul id="category-list"></ul>
+      </aside>
+      <section class="content-area">
+        <input type="text" id="search-bar" placeholder="Buscar posts..." />
+        <div id="posts-container"></div>
+      </section>
+    </div>
   </main>
   <script src="scripts.js"></script>
 </body>
