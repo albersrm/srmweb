@@ -2,49 +2,32 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SRM - Sonido Real Magazine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Post - SRM</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1><a href="index.html">SRM — Sonido Real Magazine</a></h1>
-  </header>
-
-  <main id="post-container">
-    <article>
-      <h2 id="post-title"></h2>
-      <p class="meta"><span id="post-date"></span> | <span id="post-category"></span></p>
-      <img id="post-image" src="" alt="Imagen del post" />
-      <p class="caption" id="post-caption"></p>
-      <div id="post-content"></div>
-    </article>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 SRM</p>
-  </footer>
-
-  <script>
-    // Obtener el ID del post desde la URL
-    const params = new URLSearchParams(window.location.search);
-    const postId = params.get("id");
-
-    fetch("posts.json")
-      .then(response => response.json())
-      .then(posts => {
-        const post = posts.find(p => p.id === postId);
-        if (post) {
-          document.getElementById("post-title").textContent = post.titulo;
-          document.getElementById("post-date").textContent = post.fecha;
-          document.getElementById("post-category").textContent = post.categoria;
-          document.getElementById("post-image").src = "img/" + post.imagen;
-          document.getElementById("post-caption").textContent = "Imagen: " + post.imagen;
-          document.getElementById("post-content").textContent = post.contenido;
-        } else {
-          document.getElementById("post-container").innerHTML = "<p>Post no encontrado.</p>";
-        }
-      });
-  </script>
-</body>
-</html>
+  <style>
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.2rem;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+    #post-image {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 0.3rem;
+    }
+    .caption {
+      font-size: 0.8rem;
+      color
