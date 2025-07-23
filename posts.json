@@ -1,259 +1,72 @@
 [
-  
   {
     "id": "post1",
     "title": "El trend más viral del momento: la coreografía del nuevo single de Blackpink: Jump",
-    "content": "<p>Desde su lanzamiento, 'Jump', el nuevo single de BLACKPINK, se ha convertido en un fenómeno global gracias a su pegadiza coreografía. Miles de fans de todas partes del mundo han tomado TikTok y otras redes sociales para imitar los movimientos precisos y enérgicos del grupo.</p><p>La coreografía, creada por el reconocido coreógrafo Lee Jung, mezcla elementos urbanos con movimientos innovadores que han sido diseñados para destacar la fuerza y sincronía del grupo.</p><p>El videoclip, dirigido por Seo Hyun-seung, ha superado las 100 millones de reproducciones en tiempo récord, consolidando la influencia visual y musical de BLACKPINK en la industria.</p><p>Esta tendencia ha sido adoptada no solo por seguidores, sino también por artistas que han participado en challenges virales, haciendo de 'Jump' una auténtica revolución cultural dentro y fuera del mundo del K-pop.</p><p>Además, la estética futurista y los outfits del vídeo están marcando una nueva línea de moda urbana que está siendo replicada en todo el mundo.</p><p>Con eventos y flashmobs organizados en ciudades como Seúl, Nueva York, y Barcelona, la canción no solo es un éxito musical, sino que también está promoviendo la unión y participación global a través del baile.</p><p>En definitiva, 'Jump' ha logrado lo que pocos temas: ser un himno viral que mezcla música, baile y moda, llevando a BLACKPINK a la cima del pop internacional una vez más.</p>",
+    "date": "2025-07-23",
+    "category": "K-pop",
+    "tags": ["BLACKPINK", "Jump", "Coreografía", "Viral"],
     "image": "img/blackpink-ygfamily.jpg",
-    "imageCredit": "Foto oficial de BLACKPINK vía YG Entertainment — https://ygfamily.com"
+    "imageCredit": "Foto oficial de BLACKPINK vía YG Entertainment — https://ygfamily.com",
+    "content": "<p>Desde su lanzamiento, 'Jump', el nuevo single de BLACKPINK, se ha convertido en un fenómeno global gracias a su pegadiza coreografía. Miles de fans de todas partes del mundo han tomado TikTok y otras redes sociales para imitar los movimientos precisos y enérgicos del grupo.</p><p>La coreografía, creada por el reconocido coreógrafo Lee Jung, mezcla elementos urbanos con movimientos innovadores que han sido diseñados para destacar la fuerza y sincronía del grupo.</p><p>El videoclip, dirigido por Seo Hyun-seung, ha superado las 100 millones de reproducciones en tiempo récord, consolidando la influencia visual y musical de BLACKPINK en la industria.</p><p>Esta tendencia ha sido adoptada no solo por seguidores, sino también por artistas que han participado en challenges virales, haciendo de 'Jump' una auténtica revolución cultural dentro y fuera del mundo del K-pop.</p><p>Además, la estética futurista y los outfits del vídeo están marcando una nueva línea de moda urbana que está siendo replicada en todo el mundo.</p><p>Con eventos y flashmobs organizados en ciudades como Seúl, Nueva York, y Barcelona, la canción no solo es un éxito musical, sino que también está promoviendo la unión y participación global a través del baile.</p><p>En definitiva, 'Jump' ha logrado lo que pocos temas: ser un himno viral que mezcla música, baile y moda, llevando a BLACKPINK a la cima del pop internacional una vez más.</p>"
   },
   {
     "id": "post2",
-    "titulo": "La canción que está en todas las listas: “Golden” de Huntrix",
-    "fecha": "2025-07-19",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Huntrix",
-      "Golden",
-      "Chart"
-    ],
-    "imagen": "golden-huntrix.jpg",
-    "resumen": "“Golden” arrasa en listas globales. ¿Quiénes son las voces misteriosas tras el hit?",
-    "contenido": "Huntrix ha lanzado 'Golden', una canción que ha escalado rápidamente en los rankings de Spotify y Apple Music..."
+    "title": "La canción que está en todas las listas: Golden de Huntrix y la identidad de las cantantes que hay detrás",
+    "date": "2025-07-19",
+    "category": "Pop",
+    "tags": ["Huntrix", "Golden", "Chart"],
+    "image": "img/golden-huntrix.jpg",
+    "imageCredit": "Portada oficial de Huntrix — fuente Spotify",
+    "content": "<p>‘Golden’ se ha convertido en la canción imprescindible del verano, apareciendo en todas las listas globales de éxitos. Lo más curioso es que detrás de este éxito hay un proyecto musical femenino que ha mantenido su identidad en secreto hasta ahora.</p><p>Huntrix, una agrupación que combina electrónica y pop, ha sorprendido con un sonido fresco y sofisticado que ha conquistado tanto a jóvenes como a adultos. La producción combina sintetizadores envolventes con letras evocadoras.</p><p>Recientemente, se ha revelado que las voces detrás de Huntrix son de dos cantantes emergentes, que han aportado una mezcla única de talento y carisma.</p><p>Su estrategia de marketing ha sido muy original, generando misterio y expectación, lo que ha ayudado a que ‘Golden’ se viralice rápidamente.</p><p>Si aún no la has escuchado, es un imprescindible para cualquier playlist de pop actual.</p>"
   },
   {
     "id": "post3",
-    "titulo": "La nueva visión de Lorde en Virgin: intimidad y sinceridad cruda",
-    "fecha": "2025-07-18",
-    "categoria": "Indie Pop",
-    "etiquetas": [
-      "Lorde",
-      "Virgin",
-      "Álbum"
-    ],
-    "imagen": "lorde-virgin.jpg",
-    "resumen": "Lorde sorprende con un álbum emocionalmente desnudo, alejado de sus trabajos anteriores.",
-    "contenido": "En 'Virgin', Lorde apuesta por una producción mínima y letras introspectivas que exploran vulnerabilidad, deseo y memoria..."
+    "title": "La nueva visión de Lorde en Virgin, intimidad y sinceridad cruda",
+    "date": "2025-07-18",
+    "category": "Indie Pop",
+    "tags": ["Lorde", "Virgin", "Álbum"],
+    "image": "img/lorde-virgin.jpg",
+    "imageCredit": "Foto promocional de Lorde — fuente oficial",
+    "content": "<p>Con ‘Virgin’, Lorde regresa con un álbum que apuesta por la vulnerabilidad y la sinceridad cruda. La producción es minimalista, destacando las letras introspectivas que exploran emociones profundas y memorias personales.</p><p>Este trabajo marca un cambio respecto a sus anteriores lanzamientos, enfocándose en una narrativa más íntima y emocional.</p><p>Los fans han alabado la evolución artística de Lorde, destacando cómo su voz transmite una sinceridad y autenticidad poco comunes en la música pop actual.</p><p>Los temas abordan desde la soledad y el deseo hasta la búsqueda de identidad, todo ello acompañado de una instrumentación que favorece la sensación de cercanía.</p><p>Virgin se presenta como una obra que invita a la reflexión y a la conexión emocional.</p>"
   },
   {
     "id": "post4",
-    "titulo": "Título del post 4",
-    "fecha": "2025-07-17",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta4",
-      "Música"
-    ],
-    "imagen": "imagen4.jpg",
-    "resumen": "Resumen del post 4.",
-    "contenido": "Contenido completo del post 4..."
+    "title": "Wolf Alice vuelve con fuerza, no dejan de hacer conciertos y en todos triunfan",
+    "date": "2025-07-15",
+    "category": "Rock Alternativo",
+    "tags": ["Wolf Alice", "Conciertos", "Tour"],
+    "image": "img/wolf-alice.jpg",
+    "imageCredit": "Foto en concierto de Wolf Alice — fuente oficial",
+    "content": "<p>Wolf Alice está de regreso con una gira que está arrasando en todos los escenarios. La banda británica no para de llenar salas y festivales, demostrando su vigencia y energía sobre el escenario.</p><p>Sus recientes conciertos han sido aclamados por la crítica y el público, destacando la conexión intensa que logran con sus fans.</p><p>El grupo ha presentado temas nuevos que mezclan su característico sonido grunge con melodías más elaboradas, consolidando su lugar en la escena del rock alternativo.</p><p>Los fans pueden esperar más fechas y sorpresas mientras Wolf Alice continúa su imparable ascenso.</p>"
   },
   {
     "id": "post5",
-    "titulo": "Título del post 5",
-    "fecha": "2025-07-16",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta5",
-      "Música"
-    ],
-    "imagen": "imagen5.jpg",
-    "resumen": "Resumen del post 5.",
-    "contenido": "Contenido completo del post 5..."
+    "title": "La estética de Belén Aguilera para su próximo disco, inspiración en el romanticismo más puro",
+    "date": "2025-07-12",
+    "category": "Pop Español",
+    "tags": ["Belén Aguilera", "Estética", "Romanticismo"],
+    "image": "img/belen-aguilera.jpg",
+    "imageCredit": "Imagen promocional Belén Aguilera — fuente oficial",
+    "content": "<p>Belén Aguilera ha revelado la estética visual que acompañará a su próximo disco, inspirada en el romanticismo más puro y la pintura clásica.</p><p>Con una paleta de colores suaves y vestuarios que evocan el siglo XIX, la artista busca transmitir emociones profundas y un aire nostálgico en su nueva etapa.</p><p>Los primeros adelantos visuales incluyen vídeos musicales con escenas que recuerdan cuadros renacentistas y elementos naturales como flores y paisajes bucólicos.</p><p>Los fans esperan que esta línea artística se refleje también en la música, con un sonido más maduro y lleno de sensibilidad.</p>"
   },
   {
     "id": "post6",
-    "titulo": "Título del post 6",
-    "fecha": "2025-07-15",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta6",
-      "Música"
-    ],
-    "imagen": "imagen6.jpg",
-    "resumen": "Resumen del post 6.",
-    "contenido": "Contenido completo del post 6..."
+    "title": "Qué esperar del próximo disco de Rosalía",
+    "date": "2025-07-10",
+    "category": "Pop Urbano",
+    "tags": ["Rosalía", "Nuevo disco", "Expectativas"],
+    "image": "img/rosalia-nuevo-disco.jpg",
+    "imageCredit": "Foto promocional Rosalía — fuente oficial",
+    "content": "<p>Rosalía está en plena fase de producción de su nuevo disco, y las expectativas son altísimas tras el éxito global de sus anteriores trabajos.</p><p>Se espera que mantenga su fusión de flamenco con sonidos urbanos y electrónicos, explorando nuevas colaboraciones y estilos.</p><p>La artista ha compartido pistas en redes sociales sobre una dirección más experimental, con letras que profundizan en temas personales y sociales.</p><p>El lanzamiento está previsto para finales de año y ya ha generado gran expectativa entre fans y críticos.</p>"
   },
   {
     "id": "post7",
-    "titulo": "Título del post 7",
-    "fecha": "2025-07-14",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta7",
-      "Música"
-    ],
-    "imagen": "imagen7.jpg",
-    "resumen": "Resumen del post 7.",
-    "contenido": "Contenido completo del post 7..."
-  },
-  {
-    "id": "post8",
-    "titulo": "Título del post 8",
-    "fecha": "2025-07-13",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta8",
-      "Música"
-    ],
-    "imagen": "imagen8.jpg",
-    "resumen": "Resumen del post 8.",
-    "contenido": "Contenido completo del post 8..."
-  },
-  {
-    "id": "post9",
-    "titulo": "Título del post 9",
-    "fecha": "2025-07-12",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta9",
-      "Música"
-    ],
-    "imagen": "imagen9.jpg",
-    "resumen": "Resumen del post 9.",
-    "contenido": "Contenido completo del post 9..."
-  },
-  {
-    "id": "post10",
-    "titulo": "Título del post 10",
-    "fecha": "2025-07-11",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta10",
-      "Música"
-    ],
-    "imagen": "imagen10.jpg",
-    "resumen": "Resumen del post 10.",
-    "contenido": "Contenido completo del post 10..."
-  },
-  {
-    "id": "post11",
-    "titulo": "Título del post 11",
-    "fecha": "2025-07-10",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta11",
-      "Música"
-    ],
-    "imagen": "imagen11.jpg",
-    "resumen": "Resumen del post 11.",
-    "contenido": "Contenido completo del post 11..."
-  },
-  {
-    "id": "post12",
-    "titulo": "Título del post 12",
-    "fecha": "2025-07-09",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta12",
-      "Música"
-    ],
-    "imagen": "imagen12.jpg",
-    "resumen": "Resumen del post 12.",
-    "contenido": "Contenido completo del post 12..."
-  },
-  {
-    "id": "post13",
-    "titulo": "Título del post 13",
-    "fecha": "2025-07-08",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta13",
-      "Música"
-    ],
-    "imagen": "imagen13.jpg",
-    "resumen": "Resumen del post 13.",
-    "contenido": "Contenido completo del post 13..."
-  },
-  {
-    "id": "post14",
-    "titulo": "Título del post 14",
-    "fecha": "2025-07-07",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta14",
-      "Música"
-    ],
-    "imagen": "imagen14.jpg",
-    "resumen": "Resumen del post 14.",
-    "contenido": "Contenido completo del post 14..."
-  },
-  {
-    "id": "post15",
-    "titulo": "Título del post 15",
-    "fecha": "2025-07-06",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta15",
-      "Música"
-    ],
-    "imagen": "imagen15.jpg",
-    "resumen": "Resumen del post 15.",
-    "contenido": "Contenido completo del post 15..."
-  },
-  {
-    "id": "post16",
-    "titulo": "Título del post 16",
-    "fecha": "2025-07-05",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta16",
-      "Música"
-    ],
-    "imagen": "imagen16.jpg",
-    "resumen": "Resumen del post 16.",
-    "contenido": "Contenido completo del post 16..."
-  },
-  {
-    "id": "post17",
-    "titulo": "Título del post 17",
-    "fecha": "2025-07-04",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta17",
-      "Música"
-    ],
-    "imagen": "imagen17.jpg",
-    "resumen": "Resumen del post 17.",
-    "contenido": "Contenido completo del post 17..."
-  },
-  {
-    "id": "post18",
-    "titulo": "Título del post 18",
-    "fecha": "2025-07-03",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta18",
-      "Música"
-    ],
-    "imagen": "imagen18.jpg",
-    "resumen": "Resumen del post 18.",
-    "contenido": "Contenido completo del post 18..."
-  },
-  {
-    "id": "post19",
-    "titulo": "Título del post 19",
-    "fecha": "2025-07-02",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta19",
-      "Música"
-    ],
-    "imagen": "imagen19.jpg",
-    "resumen": "Resumen del post 19.",
-    "contenido": "Contenido completo del post 19..."
-  },
-  {
-    "id": "post20",
-    "titulo": "Título del post 20",
-    "fecha": "2025-07-01",
-    "categoria": "Pop",
-    "etiquetas": [
-      "Etiqueta20",
-      "Música"
-    ],
-    "imagen": "imagen20.jpg",
-    "resumen": "Resumen del post 20.",
-    "contenido": "Contenido completo del post 20..."
+    "title": "Las hermanas Haim vuelven fuerte con I Quit",
+    "date": "2025-07-08",
+    "category": "Pop Rock",
+    "tags": ["Haim", "I Quit", "Regreso"],
+    "image": "img/haim-i-quit.jpg",
+    "imageCredit": "Imagen oficial Haim — fuente Spotify",
+    "content": "<p>Las hermanas Haim han regresado con ‘I Quit’, un tema que combina pop y rock con una energía renovada y letras que hablan de empoderamiento y cambios personales.</p><p>La canción ha sido recibida con entusiasmo tanto por la crítica como por sus seguidores, destacando su frescura y producción cuidada.</p><p>El single forma parte de un álbum que promete mantener la calidad y autenticidad que caracteriza al grupo.</p>"
   }
 ]
