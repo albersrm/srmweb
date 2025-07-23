@@ -3,81 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SRM | Artículo</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
-      background: #fafafa;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-      color: #222;
-    }
-    #post-image {
-      max-width: 100%;
-      border-radius: 12px;
-      margin-top: 20px;
-      display: none;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-    }
-    #image-credit {
-      font-size: 0.85rem;
-      color: #666;
-      font-style: italic;
-      margin: 8px 0 24px 0;
-      display: none;
-      text-align: right;
-      user-select: none;
-    }
-    #post-content p {
-      line-height: 1.6;
-      margin-bottom: 1rem;
-      font-size: 1.1rem;
-    }
-  </style>
+  <title>Post - SRM - Revista Online de Música</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="post-title">Cargando...</h1>
-  <img id="post-image" alt="Imagen del post" />
-  <p id="image-credit"></p>
-  <div id="post-content"></div>
+
+  <header>
+    <h1 id="post-title">Cargando título...</h1>
+  </header>
+
+  <main>
+    <article id="post-content">
+      <img id="post-image" src="" alt="Imagen del post" />
+      <p id="post-excerpt">Cargando contenido...</p>
+    </article>
+  </main>
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const postId = params.get('id');
 
     fetch('posts.json')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(posts => {
-        const post = posts.find(p => p.id === postId);
-        if (!post) {
-          document.body.innerHTML = "<h2>Artículo no encontrado</h2>";
-          return;
-        }
-        document.getElementById('post-title').textContent = post.title || 'Sin título';
-        document.getElementById('post-content').innerHTML = post.content || '<p>Sin contenido</p>';
-
-        const img = document.getElementById('post-image');
-        if(post.image){
-          img.src = post.image;
-          img.alt = post.title || 'Imagen del post';
-          img.style.display = 'block';
-        }
-
-        const credit = document.getElementById('image-credit');
-        if(post.imageCredit){
-          credit.textContent = post.imageCredit;
-          credit.style.display = 'block';
+        const post = posts.find(p => p.id == postId);
+        if (post) {
+          document.getElementById('post-title').textContent = post.title;
+          document.getElementById('post-image').src = post.image || 'img/default.jpg';
+          document.getElementById('post-image').alt = post.title || 'Imagen del post';
+          document.getElementById('post-excerpt').textContent = post.content || 'Contenido no disponible.';
+        } else {
+          document.getElementById('post-content').textContent = 'Post no encontrado.';
         }
       })
       .catch(() => {
-        document.body.innerHTML = "<h2>Error cargando el artículo</h2>";
+        document.getElementById('post-content').textContent = 'Error cargando el post.';
       });
   </script>
+
 </body>
 </html>

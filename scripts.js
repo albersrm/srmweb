@@ -1,1 +1,1 @@
-// Lógica JS de búsqueda y navegación
+// This file is intentionally left blank.
