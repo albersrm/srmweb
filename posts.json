@@ -2,7 +2,7 @@
   {
     "id": "post1",
     "title": "El trend más viral del momento: la coreografía del nuevo single de Blackpink: Jump",
-    "date": "2025-07-23",
+    "date": "2025-07-13",
     "category": "K-pop",
     "tags": ["BLACKPINK", "Jump", "Coreografía", "Viral"],
     "image": "img/blackpink-ygfamily.jpg",
@@ -12,7 +12,7 @@
   {
     "id": "post2",
     "title": "La canción que está en todas las listas: Golden de Huntrix y la identidad de las cantantes que hay detrás",
-    "date": "2025-07-19",
+    "date": "2025-07-10",
     "category": "Pop",
     "tags": ["Huntrix", "Golden", "Chart"],
     "image": "img/huntrix-golden.jpg",
@@ -20,9 +20,19 @@
     "content": "<p>‘Golden’ se ha convertido en la canción imprescindible del verano, apareciendo en todas las listas globales de éxitos. Lo más curioso es que detrás de este éxito hay un proyecto musical femenino que ha mantenido su identidad en secreto hasta ahora.</p><p>Huntrix, una agrupación que combina electrónica y pop, ha sorprendido con un sonido fresco y sofisticado que ha conquistado tanto a jóvenes como a adultos. La producción combina sintetizadores envolventes con letras evocadoras.</p><p>Recientemente, se ha revelado que las voces detrás de Huntrix son de dos cantantes emergentes, que han aportado una mezcla única de talento y carisma.</p><p>Su estrategia de marketing ha sido muy original, generando misterio y expectación, lo que ha ayudado a que ‘Golden’ se viralice rápidamente.</p><p>Si aún no la has escuchado, es un imprescindible para cualquier playlist de pop actual.</p>"
   },
   {
-    "id": "post3",
+  "id": "post3",
+  "title": "Resumen del Primavera Sound Barcelona 2025: tres cabezas de cartel, las Supernenas y un éxito rotundo",
+  "date": "2025-06-15",
+  "category": "Festivales",
+  "tags": ["Primavera Sound", "Barcelona", "Festivales", "Charli XCX", "Sabrina Carpenter", "Chappell Roan", "Supernenas"],
+  "image": "img/primavera.jpg",
+  "imageCredit": "Ilustracion via X @xcxsource",
+  "content": "<p>La edición 2025 del <strong>Primavera Sound Barcelona</strong> ha sido histórica, reuniendo a miles de asistentes en el Parc del Fòrum y consolidando su reputación como uno de los festivales más influyentes del mundo. Este año, el cartel brilló especialmente gracias a sus tres cabezas de cartel principales: <strong>Charli XCX</strong>, <strong>Sabrina Carpenter</strong> y <strong>Chappell Roan</strong>, quienes ofrecieron actuaciones memorables y llenas de energía. Además, el fenómeno de las <strong>Supernenas</strong> añadió un toque único y generacional al festival.</p><h3>Charli XCX: la reina del pop experimental</h3><p>Charli XCX fue la encargada de abrir la serie de conciertos principales con un show vibrante y futurista. Su setlist incluyó éxitos como “Vroom Vroom”, “1999” y los nuevos temas de su último álbum, fusionando pop electrónico, sonidos rave y una puesta en escena visualmente impactante. Charli conectó con el público desde el primer minuto, demostrando por qué es una de las artistas más innovadoras y queridas de la escena internacional. El público coreó cada canción y celebró la actitud irreverente y festiva de la británica.</p><h3>Sabrina Carpenter: carisma y emoción sobre el escenario</h3><p>La actuación de Sabrina Carpenter fue uno de los momentos más emotivos del festival. La artista estadounidense, en el mejor momento de su carrera, conquistó Barcelona con su voz potente y su presencia escénica. Interpretó temas de su último disco y grandes hits como “Espresso” y “Feather”. Sabrina sorprendió con una versión especial de un clásico español y agradeció el cariño del público local, dejando claro que su éxito es fruto de talento y trabajo constante.</p><h3>Chappell Roan: la revelación del año</h3><p>Chappell Roan se consolidó como la gran revelación del Primavera Sound 2025. Su show fue una explosión de color, teatralidad y autenticidad, con una propuesta visual inspirada en el glam y el pop alternativo. Canciones como “Red Wine Supernova” y “HOT TO GO!” hicieron bailar a todo el recinto, mientras que sus mensajes de empoderamiento y diversidad conectaron especialmente con el público más joven. Chappell Roan demostró que es mucho más que una promesa: es ya una realidad en la música internacional.</p><h3>Las Supernenas: el fenómeno viral del festival</h3><p>Uno de los momentos más comentados del Primavera Sound 2025 fue el fenómeno de las <strong>Supernenas</strong>, un grupo de amigas que, vestidas como las icónicas heroínas de la animación, se convirtieron en virales en redes sociales por su energía, sus coreografías espontáneas y su capacidad para animar a los asistentes en cada concierto. Su presencia fue tan notoria que incluso Charli XCX y Chappell Roan las mencionaron durante sus actuaciones, celebrando el espíritu inclusivo y divertido que aportaron al festival.</p><p>Más allá de los cabezas de cartel y las Supernenas, el festival destacó por su diversidad de estilos, la calidad de los artistas emergentes y una organización impecable. La atmósfera inclusiva, la oferta gastronómica y los espacios de descanso recibieron elogios unánimes, y Barcelona volvió a brillar como capital mundial de la música en directo.</p><p>En definitiva, el Primavera Sound Barcelona 2025 fue un éxito rotundo, con tres cabezas de cartel femeninas que marcaron tendencia y dejaron el listón muy alto para futuras ediciones, y con el fenómeno de las Supernenas como símbolo de la alegría y la diversidad que define al festival.</p>"
+  },
+  {
+    "id": "post4",
     "title": "La nueva visión de Lorde en Virgin: intimidad y sinceridad cruda",
-    "date": "2025-07-25",
+    "date": "2025-07-09",
     "category": "Indie Pop",
     "tags": ["Lorde", "Virgin", "Indie", "Sinceridad"],
     "image": "img/lorde-virgin.jpg",
@@ -30,9 +40,9 @@
     "content": "<p>Con su esperado álbum <strong>Virgin</strong>, Lorde da un giro radical a su carrera, apostando por una propuesta mucho más íntima y honesta. Atrás quedan los himnos generacionales y la producción grandilocuente: en este nuevo trabajo, la artista neozelandesa se desnuda emocionalmente y explora territorios sonoros minimalistas.</p><p>Las letras de <strong>Virgin</strong> abordan temas como la vulnerabilidad, el autodescubrimiento y la soledad, con una sinceridad cruda que impacta desde la primera escucha. Lorde se atreve a mostrar sus miedos y contradicciones, invitando al oyente a acompañarla en un viaje introspectivo y sin filtros.</p><p>La producción, a cargo de Jack Antonoff, apuesta por arreglos sencillos, donde la voz de Lorde y los silencios cobran protagonismo. Canciones como “Naked Truth” y “Glass Walls” destacan por su atmósfera íntima y la ausencia de artificios, permitiendo que cada palabra resuene con fuerza.</p><p>Visualmente, la era <strong>Virgin</strong> se acompaña de una estética sobria y natural, alejada del glamour habitual del pop. Los videoclips y sesiones fotográficas muestran a una Lorde auténtica, sin máscaras, reforzando el mensaje de honestidad que atraviesa todo el álbum.</p><p>Con <strong>Virgin</strong>, Lorde demuestra que la madurez artística pasa por atreverse a ser vulnerable. Un disco valiente, que invita a la reflexión y consolida a la cantante como una de las voces más genuinas de su generación.</p>"
   },
   {
-    "id": "post4",
+    "id": "post5",
     "title": "Los rumores y confirmación del próximo tour de Ariana Grande tras su éxito en el cine",
-    "date": "2025-07-27",
+    "date": "2025-07-08",
     "category": "Pop",
     "tags": ["Ariana Grande", "Tour", "Cine", "Rumores"],
     "image": "img/ariana-eternal.jpg",
@@ -40,9 +50,9 @@
     "content": "<p>Tras conquistar la gran pantalla con su aclamada actuación en la película <strong>Starlight Dreams</strong>, Ariana Grande vuelve a ser el centro de atención, esta vez por los crecientes rumores sobre su esperado regreso a los escenarios. Durante semanas, las redes sociales y los foros de fans han estado llenos de especulaciones sobre un posible tour mundial, alimentadas por pistas en entrevistas y publicaciones en sus perfiles oficiales.</p><p>La confirmación llegó finalmente a través de un comunicado de su discográfica: Ariana Grande iniciará una nueva gira internacional en 2026, que combinará sus grandes éxitos con temas inéditos inspirados en su reciente experiencia cinematográfica. El tour, titulado <strong>Moonlight World Tour</strong>, promete un espectáculo visual innovador y colaboraciones especiales con artistas invitados.</p><p>Fuentes cercanas a la artista aseguran que Ariana ha estado trabajando en nuevas coreografías y una puesta en escena que fusiona elementos del cine y la música, llevando la experiencia de sus conciertos a un nuevo nivel. Las primeras fechas confirmadas incluyen paradas en Nueva York, Londres, París, Tokio y Ciudad de México, con más ciudades por anunciar.</p><p>El entusiasmo de los fans es palpable, y las entradas para los primeros conciertos se agotaron en minutos. Sin duda, este tour marca una nueva etapa en la carrera de Ariana Grande, consolidando su estatus como una de las artistas más versátiles y queridas del pop actual.</p>"
   }, 
   {
-    "id": "post5",
+    "id": "post6",
     "title": "Wolf Alice vuelve con fuerza: no dejan de hacer conciertos y en todos triunfan",
-    "date": "2025-07-29",
+    "date": "2025-07-01",
     "category": "Rock Alternativo",
     "tags": ["Wolf Alice", "Conciertos", "Gira", "Éxito"],
     "image": "img/wolfalice.jpg",
@@ -50,9 +60,9 @@
     "content": "<p>Wolf Alice está viviendo uno de los momentos más intensos y exitosos de su carrera. Tras el lanzamiento de su último álbum, la banda británica no ha parado de girar por Europa, América y Asia, colgando el cartel de sold out en la mayoría de sus conciertos. Cada actuación es una celebración de energía, carisma y conexión con el público, que corea cada canción como si fuera un himno generacional.</p><p>La crítica ha elogiado la capacidad del grupo para reinventarse en directo, alternando momentos de pura electricidad con pasajes más íntimos y emocionales. Ellie Rowsell, la vocalista, brilla con una presencia escénica magnética, mientras que el resto de la banda demuestra una solidez instrumental envidiable. Temas como “How Can I Make It OK?” y “Smile” se han convertido en imprescindibles de su repertorio, y los nuevos sencillos muestran una madurez artística que augura un futuro brillante.</p><p>Además, Wolf Alice ha sorprendido a sus fans con colaboraciones inesperadas y versiones de clásicos del rock, haciendo de cada concierto una experiencia única. La gira continuará durante el resto del año, con paradas en festivales de renombre y escenarios emblemáticos. Sin duda, Wolf Alice se consolida como una de las bandas más potentes y queridas del panorama alternativo actual.</p>"
   },
   {
-    "id": "post6",
+    "id": "post7",
     "title": "La estética de Belén Aguilera para su próximo disco: inspiración en el romanticismo más puro",
-    "date": "2025-07-30",
+    "date": "2025-06-23",
     "category": "Pop",
     "tags": ["Belén Aguilera", "Estética", "Romanticismo", "Nuevo Disco"],
     "image": "img/belenaguilera.jpg",
@@ -60,9 +70,9 @@
     "content": "<p>Belén Aguilera prepara el lanzamiento de su próximo disco y ya ha dejado ver que la estética será uno de los pilares fundamentales de esta nueva etapa. Inspirada en el romanticismo más puro, la artista apuesta por una imagen delicada, etérea y cargada de simbolismo, donde predominan los tonos pastel, las flores y los escenarios naturales.</p><p>En sus redes sociales y adelantos visuales, Belén aparece rodeada de jardines, vestidos vaporosos y detalles vintage que evocan la sensibilidad de poetas y pintores románticos. Esta inspiración no solo se refleja en lo visual, sino también en las letras y melodías de sus nuevas canciones, que exploran el amor, la nostalgia y la belleza de lo efímero.</p><p>La producción musical, a cargo de un equipo de confianza, busca fusionar el pop contemporáneo con arreglos clásicos, creando una atmósfera envolvente y emocional. Los fans esperan con expectación este nuevo trabajo, que promete consolidar a Belén Aguilera como una de las voces más personales y creativas del panorama pop español.</p>"
   },
   {
-    "id": "post7",
+    "id": "post8",
     "title": "Qué esperar del próximo disco de Rosalía",
-    "date": "2025-08-01",
+    "date": "2025-06-22",
     "category": "Pop Urbano",
     "tags": ["Rosalía", "Nuevo Disco", "Expectativas", "Innovación"],
     "image": "img/rosalia.jpg",
@@ -70,9 +80,9 @@
     "content": "<p>El regreso de Rosalía es uno de los más esperados del año. Tras el éxito global de sus anteriores trabajos, la artista catalana ha estado trabajando en secreto en un nuevo disco que, según fuentes cercanas, promete romper una vez más los esquemas del pop y la música urbana.</p><p>Se espera que Rosalía continúe explorando la fusión de géneros, incorporando sonidos electrónicos, flamenco experimental y colaboraciones internacionales de alto nivel. Los adelantos publicados en sus redes muestran una estética futurista y arriesgada, con videoclips que apuestan por la innovación visual y coreográfica.</p><p>En cuanto a las letras, todo apunta a que el disco abordará temas de empoderamiento, identidad y transformación personal, manteniendo la poética y la fuerza que caracterizan a la artista. La expectación es máxima y los fans ya especulan con posibles colaboraciones y sorpresas en la producción. Sin duda, el próximo disco de Rosalía será uno de los lanzamientos clave de 2025.</p>"
   },
   {
-  "id": "post8",
+  "id": "post9",
   "title": "Las hermanas Haim vuelven fuerte con I Quit",
-  "date": "2025-08-03",
+  "date": "2025-06-20",
   "category": "Indie Rock",
   "tags": ["Haim", "I Quit", "Regreso", "Indie"],
   "image": "img/haim.jpg",
@@ -80,9 +90,9 @@
   "content": "<p>Después de un breve parón, las hermanas Haim regresan con fuerza al panorama musical con su nuevo single <strong>I Quit</strong>. La canción, que ya es tendencia en plataformas digitales, marca una evolución en el sonido del trío californiano, apostando por una mezcla de guitarras potentes, percusión marcada y letras que exploran la independencia y el empoderamiento personal.</p><p>En entrevistas recientes, las Haim han confesado que <strong>I Quit</strong> nació de una etapa de autodescubrimiento y de la necesidad de romper con expectativas externas. El videoclip, dirigido por Paul Thomas Anderson, refuerza el mensaje de libertad y sororidad, mostrando a las hermanas recorriendo paisajes desérticos y escenarios urbanos con una actitud desafiante y auténtica.</p><p>La crítica ha recibido el tema con entusiasmo, destacando la madurez compositiva y la energía renovada de la banda. Además, Haim ha anunciado una gira internacional para presentar su nuevo material, con paradas en festivales de renombre y recintos emblemáticos. Sin duda, <strong>I Quit</strong> consolida a Haim como una de las propuestas más sólidas y originales del indie actual.</p>"
 },
 {
-  "id": "post9",
+  "id": "post10",
   "title": "El verano pasado fue de Charli XCX y este año le toca a Addison Rae",
-  "date": "2025-08-05",
+  "date": "2025-06-14",
   "category": "Pop",
   "tags": ["Charli XCX", "Addison Rae", "Verano", "Pop"],
   "image": "img/addison.jpg",
@@ -90,9 +100,9 @@
   "content": "<p>Si el verano pasado estuvo dominado por los ritmos pegadizos y la actitud irreverente de Charli XCX, este año el relevo lo toma Addison Rae. La joven artista, conocida inicialmente por su éxito en redes sociales, ha dado el salto definitivo a la música pop con un álbum que ha sorprendido a crítica y público por igual.</p><p>Su single principal, <strong>Sunset Lover</strong>, se ha convertido en el himno de la temporada, sonando en todas las playlists y encabezando las listas de éxitos internacionales. Addison ha sabido combinar influencias del pop electrónico con melodías frescas y letras que capturan la energía y la nostalgia del verano.</p><p>Las colaboraciones con productores de renombre y artistas invitados han elevado el proyecto, consolidando a Addison Rae como una de las nuevas voces a seguir en la industria. Su presencia en festivales y eventos veraniegos ha sido arrolladora, demostrando que su éxito no es pasajero. Todo apunta a que este será el verano de Addison Rae, marcando el inicio de una carrera musical prometedora.</p>"
 },
 {
-  "id": "post10",
+  "id": "post11",
   "title": "El éxito instantáneo de PinkPantheress con Illegal",
-  "date": "2025-08-07",
+  "date": "2025-06-13",
   "category": "Pop Alternativo",
   "tags": ["PinkPantheress", "Illegal", "Éxito", "Tendencia"],
   "image": "img/pinkpantheress.jpg",
@@ -100,9 +110,9 @@
   "content": "<p>PinkPantheress lo ha vuelto a hacer: su nuevo single <strong>Illegal</strong> ha alcanzado el número uno en tiempo récord, confirmando el magnetismo de su propuesta musical. Con una producción minimalista y una voz etérea, la artista británica explora en <strong>Illegal</strong> temas como la transgresión, el deseo y la búsqueda de identidad en la era digital.</p><p>El tema destaca por su fusión de drum and bass, pop alternativo y samples nostálgicos, elementos que ya son marca de la casa en el universo de PinkPantheress. El videoclip, de estética retro y urbana, ha sido aclamado por su creatividad y su capacidad para conectar con la generación Z.</p><p>La crítica ha elogiado la autenticidad y la frescura de PinkPantheress, que sigue rompiendo moldes y conquistando nuevos públicos. <strong>Illegal</strong> no solo es un éxito comercial, sino también una declaración de intenciones sobre el futuro del pop alternativo.</p>"
 },
 {
-  "id": "post11",
+  "id": "post12",
   "title": "Polémica con la portada del nuevo disco de Sabrina Carpenter",
-  "date": "2025-08-09",
+  "date": "2025-06-11",
   "category": "Pop",
   "tags": ["Sabrina Carpenter", "Polémica", "Portada", "Nuevo Disco"],
   "image": "img/sabrina.jpg",
@@ -110,23 +120,13 @@
   "content": "<p>El lanzamiento de la portada del nuevo disco de Sabrina Carpenter ha generado una intensa polémica en redes sociales. La imagen, que muestra a la artista en una pose provocadora y rodeada de símbolos ambiguos, ha dividido a sus seguidores y ha abierto un debate sobre los límites del arte y la provocación en la industria musical.</p><p>Mientras algunos fans defienden la libertad creativa de Sabrina y ven en la portada una declaración de empoderamiento y ruptura de estereotipos, otros consideran que la imagen busca la controversia fácil y no aporta valor artístico. La propia Sabrina ha respondido a las críticas en entrevistas, asegurando que su intención era provocar reflexión y conversación sobre la autoimagen y la percepción pública.</p><p>Más allá de la polémica, el disco promete ser uno de los lanzamientos más comentados del año, con canciones que exploran la dualidad entre vulnerabilidad y fortaleza. La expectación es máxima y todo apunta a que Sabrina Carpenter seguirá dando que hablar en los próximos meses.</p>"
 },
 {
-  "id": "post12",
+  "id": "post13",
   "title": "Princess of Power de Marina y la nostalgia que rememora a Electra Heart",
-  "date": "2025-08-12",
+  "date": "2025-06-07",
   "category": "Pop Alternativo",
   "tags": ["Marina", "Princess of Power", "Nostalgia", "Electra Heart"],
   "image": "img/marina.jpg",
   "imageCredit": "Marina — Princess of Power — via Amazon ©",
   "content": "<p>Marina regresa con <strong>Princess of Power</strong>, un disco que ha emocionado a sus seguidores por su clara conexión con la era <strong>Electra Heart</strong>. En este nuevo trabajo, la artista recupera la estética y los sonidos que la convirtieron en un icono del pop alternativo, mezclando letras introspectivas con melodías pegadizas y una producción sofisticada.</p><p>El álbum explora temas de empoderamiento femenino, autoconocimiento y nostalgia, con guiños constantes a la cultura pop de los años 2000 y referencias visuales a su alter ego más famoso. Los videoclips y la imagen promocional de <strong>Princess of Power</strong> están llenos de colores vibrantes, corazones y símbolos de poder, evocando la estética de <strong>Electra Heart</strong> pero con una madurez renovada.</p><p>La crítica ha recibido el disco con entusiasmo, destacando la capacidad de Marina para reinventarse sin perder su esencia. <strong>Princess of Power</strong> es, sin duda, un homenaje a sus raíces y una invitación a celebrar la individualidad y la fuerza interior.</p>"
-},
-{
-  "id": "post13",
-  "title": "Resumen del Primavera Sound Barcelona 2025: tres cabezas de cartel, las Supernenas y un éxito rotundo",
-  "date": "2025-08-15",
-  "category": "Festivales",
-  "tags": ["Primavera Sound", "Barcelona", "Festivales", "Charli XCX", "Sabrina Carpenter", "Chappell Roan", "Supernenas"],
-  "image": "img/primavera.jpg",
-  "imageCredit": "Ilustracion via X @xcxsource",
-  "content": "<p>La edición 2025 del <strong>Primavera Sound Barcelona</strong> ha sido histórica, reuniendo a miles de asistentes en el Parc del Fòrum y consolidando su reputación como uno de los festivales más influyentes del mundo. Este año, el cartel brilló especialmente gracias a sus tres cabezas de cartel principales: <strong>Charli XCX</strong>, <strong>Sabrina Carpenter</strong> y <strong>Chappell Roan</strong>, quienes ofrecieron actuaciones memorables y llenas de energía. Además, el fenómeno de las <strong>Supernenas</strong> añadió un toque único y generacional al festival.</p><h3>Charli XCX: la reina del pop experimental</h3><p>Charli XCX fue la encargada de abrir la serie de conciertos principales con un show vibrante y futurista. Su setlist incluyó éxitos como “Vroom Vroom”, “1999” y los nuevos temas de su último álbum, fusionando pop electrónico, sonidos rave y una puesta en escena visualmente impactante. Charli conectó con el público desde el primer minuto, demostrando por qué es una de las artistas más innovadoras y queridas de la escena internacional. El público coreó cada canción y celebró la actitud irreverente y festiva de la británica.</p><h3>Sabrina Carpenter: carisma y emoción sobre el escenario</h3><p>La actuación de Sabrina Carpenter fue uno de los momentos más emotivos del festival. La artista estadounidense, en el mejor momento de su carrera, conquistó Barcelona con su voz potente y su presencia escénica. Interpretó temas de su último disco y grandes hits como “Espresso” y “Feather”. Sabrina sorprendió con una versión especial de un clásico español y agradeció el cariño del público local, dejando claro que su éxito es fruto de talento y trabajo constante.</p><h3>Chappell Roan: la revelación del año</h3><p>Chappell Roan se consolidó como la gran revelación del Primavera Sound 2025. Su show fue una explosión de color, teatralidad y autenticidad, con una propuesta visual inspirada en el glam y el pop alternativo. Canciones como “Red Wine Supernova” y “HOT TO GO!” hicieron bailar a todo el recinto, mientras que sus mensajes de empoderamiento y diversidad conectaron especialmente con el público más joven. Chappell Roan demostró que es mucho más que una promesa: es ya una realidad en la música internacional.</p><h3>Las Supernenas: el fenómeno viral del festival</h3><p>Uno de los momentos más comentados del Primavera Sound 2025 fue el fenómeno de las <strong>Supernenas</strong>, un grupo de amigas que, vestidas como las icónicas heroínas de la animación, se convirtieron en virales en redes sociales por su energía, sus coreografías espontáneas y su capacidad para animar a los asistentes en cada concierto. Su presencia fue tan notoria que incluso Charli XCX y Chappell Roan las mencionaron durante sus actuaciones, celebrando el espíritu inclusivo y divertido que aportaron al festival.</p><p>Más allá de los cabezas de cartel y las Supernenas, el festival destacó por su diversidad de estilos, la calidad de los artistas emergentes y una organización impecable. La atmósfera inclusiva, la oferta gastronómica y los espacios de descanso recibieron elogios unánimes, y Barcelona volvió a brillar como capital mundial de la música en directo.</p><p>En definitiva, el Primavera Sound Barcelona 2025 fue un éxito rotundo, con tres cabezas de cartel femeninas que marcaron tendencia y dejaron el listón muy alto para futuras ediciones, y con el fenómeno de las Supernenas como símbolo de la alegría y la diversidad que define al festival.</p>"
 }
 ]
